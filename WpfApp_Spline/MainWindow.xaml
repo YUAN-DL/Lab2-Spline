@@ -1,0 +1,96 @@
+﻿<Window x:Class="WpfApp_Spline.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_Spline"
+         xmlns:system="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="658" Width="1074"
+        xmlns:oxy="http://oxyplot.org/wpf"
+        xmlns:zz="clr-namespace:ClassLibrary_Spline;assembly=ClassLibrary_Spline" ResizeMode="NoResize">
+
+    <Window.Resources>
+        <ObjectDataProvider x:Key="selected_function"
+                        ObjectType="{x:Type system:Enum}"
+                        MethodName="GetValues">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="zz:SPf" />
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+    </Window.Resources>
+    <Window.CommandBindings>
+        <CommandBinding Command="{x:Static local:MainWindow.MakeMeasured}"
+                        CanExecute="CanMakeMeasured"
+                        Executed="DoMakeMeasured">
+        </CommandBinding>
+        <CommandBinding Command="{x:Static local:MainWindow.MakeSpline}"
+                        CanExecute="CanMakeSpline"
+                        Executed="DoMakeSpline">
+        </CommandBinding>
+
+    </Window.CommandBindings>
+
+    <Grid Margin="0,0,10,4">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="119*"/>
+            <ColumnDefinition Width="33*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Name="Oxy" HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="554" Margin="31,119,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="41*"/>
+            </Grid.RowDefinitions>
+            <oxy:PlotView Model="{Binding plotModel}" HorizontalAlignment="Center" Width="554" Grid.RowSpan="2"/>
+        </Grid>
+
+        <Grid Name="MeasureData_Input" Height="109" Margin="132,0,280,0" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="153*"/>
+                <ColumnDefinition Width="191*"/>
+            </Grid.ColumnDefinitions>
+            <ComboBox ItemsSource="{Binding Source={StaticResource selected_function}}" SelectedItem="{Binding F_Fun}" SelectedIndex="0" SelectionChanged="ComboBox_SelectionChanged"  HorizontalAlignment="Left" Margin="94,22,0,0" VerticalAlignment="Top" Width="78" Grid.Column="1" Height="20"/>
+            <TextBox Name="TextBox_Measured_n" Text="{Binding Path=Measured_n, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Margin="3,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" TextChanged="TextBox_TextChanged" Height="20" Grid.Column="1"/>
+            <TextBox  Name="TextBox_Measured_a" Text="{Binding Path=Measured_a, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Margin="3,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="86" Height="17" Grid.Column="1"/>
+            <TextBox  Name="TextBox_Measured_b" Text="{Binding Path=Measured_b, ValidatesOnDataErrors=True}" TextWrapping="Wrap" VerticalAlignment="Top" Margin="3,72,0,0" Height="17" HorizontalAlignment="Left" Width="86" Grid.Column="1"/>
+            <TextBlock HorizontalAlignment="Left" Margin="44,47,0,0" Text="left endpoint" TextWrapping="Wrap" VerticalAlignment="Top" Height="17" Width="99" RenderTransformOrigin="1.98,0.595"/>
+            <TextBlock HorizontalAlignment="Left" Margin="44,72,0,0" Text="right endpoint" TextWrapping="Wrap" VerticalAlignment="Top" Height="16" Width="99" RenderTransformOrigin="0.62,0.657"/>
+            <TextBlock HorizontalAlignment="Left" Margin="44,22,0,0" Text="number of nodes" TextWrapping="Wrap" VerticalAlignment="Top" Height="20" Width="104" RenderTransformOrigin="0.62,0.657"/>
+            <Button Content="Measured" Command ="{x:Static local:MainWindow.MakeMeasured}" Click="Button_Click" Margin="94,49,53,23" Grid.Column="1"  />
+        </Grid>
+
+
+
+        <ListBox  ItemsSource="{Binding Measured_Items}" Margin="605,168,10,0" SelectionChanged="ListBox_SelectionChanged" Height="364" VerticalAlignment="Top"/>
+        <ListBox  ItemsSource="{Binding Spline_Derivative}" Margin="0,168,0,0" HorizontalAlignment="Center" Width="212" Grid.Column="1" Height="364" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Height="22" Margin="632,141,0,0" Text="Измеренные значения" TextWrapping="Wrap" VerticalAlignment="Top" Width="144"/>
+        <TextBlock HorizontalAlignment="Center" Height="22" Margin="0,140,0,0" Text="Информация сплайнов" TextWrapping="Wrap" VerticalAlignment="Top" Width="144" Grid.Column="1"/>
+        <Grid Name="Spline_Input" Grid.ColumnSpan="2" HorizontalAlignment="Left" Height="107" Margin="605,2,0,0" VerticalAlignment="Top" Width="459">
+
+            <TextBox Name="N_Splines" Text="{Binding Path=Spline_N, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="10,28,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+            <TextBox Name="D1_left" Text="{Binding Path=D1_0, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="101,28,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="73" RenderTransformOrigin="0.534,0.087"/>
+            <TextBox Name="D1_right" Text="{Binding Path=D1_1, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}"  HorizontalAlignment="Center" Height="26" Margin="0,28,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+            <TextBox Name="D2_left" Text="{Binding Path=D2_0, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="280,28,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+            <TextBox Name="D2_right" Text="{Binding Path=D2_1, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" HorizontalAlignment="Left" Height="26" Margin="367,28,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="73"/>
+
+
+
+            <TextBlock HorizontalAlignment="Left" Height="16" Margin="12,7,0,0" Text="N of nodes" TextWrapping="Wrap" VerticalAlignment="Top" Width="71"/>
+            <TextBlock HorizontalAlignment="Left" Height="16" Margin="102,7,0,0" Text="D1 left" TextWrapping="Wrap" VerticalAlignment="Top" Width="71"/>
+            <TextBlock HorizontalAlignment="Center" Height="16" Margin="0,7,0,0" Text="D1 right" TextWrapping="Wrap" VerticalAlignment="Top" Width="71"/>
+            <TextBlock HorizontalAlignment="Left" Height="16" Margin="282,7,0,0" Text="D2 left" TextWrapping="Wrap" VerticalAlignment="Top" Width="71" RenderTransformOrigin="1.197,0.735"/>
+            <TextBlock HorizontalAlignment="Left" Height="16" Margin="367,7,0,0" Text="D2 right" TextWrapping="Wrap" VerticalAlignment="Top" Width="71" RenderTransformOrigin="0.521,0.443"/>
+            <Button Content="Splines" Command="{x:Static local:MainWindow.MakeSpline}" HorizontalAlignment="Left" Height="30" Margin="165,67,0,0" VerticalAlignment="Top" Width="144" Click="Button_Click_1"/>
+
+
+        </Grid>
+        <Menu HorizontalAlignment="Left" Height="35" VerticalAlignment="Top" Width="76" Background="#FF00F9FF">
+            <MenuItem Header="_Menu" Click="MenuItem_Click" FontSize="20" Height="35" Width="76">
+                <MenuItem x:Name="MeasuredData_btn" Command ="{x:Static local:MainWindow.MakeMeasured}" Header="MeasuredData" Click="Button_Click"/>
+
+                <MenuItem x:Name="Splines_btn"  Command="{x:Static local:MainWindow.MakeSpline}" Header="Splines" Click="Button_Click_1"/>
+            </MenuItem>
+
+        </Menu>
+    </Grid>
+</Window>

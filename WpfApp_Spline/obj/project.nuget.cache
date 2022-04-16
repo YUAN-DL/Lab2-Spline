@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "84qnu4m1azJMOUCStx8Xi/m92QiN9gO3zyE05FZ3EadM9NIjXajhQPJeAzDvcn5GVMNELYqViqzUo5dpMdSjhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\WpfApp_Spline\\WpfApp_Spline.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ydl74\\.nuget\\packages\\oxyplot.core\\2.1.0\\oxyplot.core.2.1.0.nupkg.sha512",
+    "C:\\Users\\ydl74\\.nuget\\packages\\oxyplot.wpf\\2.1.0\\oxyplot.wpf.2.1.0.nupkg.sha512",
+    "C:\\Users\\ydl74\\.nuget\\packages\\oxyplot.wpf.shared\\2.1.0\\oxyplot.wpf.shared.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
