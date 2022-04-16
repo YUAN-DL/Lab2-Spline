@@ -40,7 +40,6 @@ namespace WPF
             get; 
             set; 
         }
-        public double[] Deriv { get; set; } = new double[6];
         public ObservableCollection<string> Spline_Derivative
         { 
             get; 

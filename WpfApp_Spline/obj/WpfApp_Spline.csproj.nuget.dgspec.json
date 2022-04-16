@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\WpfApp_Spline\\WpfApp_Spline.csproj": {}
+    "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\WpfApp_Spline\\WpfApp_Spline.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj": {
+    "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj",
+        "projectUniqueName": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj",
         "projectName": "ClassLibrary_Spline",
-        "projectPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj",
+        "projectPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj",
         "packagesPath": "C:\\Users\\ydl74\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\obj\\",
+        "outputPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,11 +62,11 @@
         }
       }
     },
-    "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\Dll_Spline\\Dll_Spline.vcxproj": {
+    "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\Dll_Spline\\Dll_Spline.vcxproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\Dll_Spline\\Dll_Spline.vcxproj",
+        "projectUniqueName": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\Dll_Spline\\Dll_Spline.vcxproj",
         "projectName": "Dll_Spline",
-        "projectPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\Dll_Spline\\Dll_Spline.vcxproj",
+        "projectPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\Dll_Spline\\Dll_Spline.vcxproj",
         "frameworks": {
           "native": {
             "projectReferences": {}
@@ -77,14 +77,14 @@
         "native": {}
       }
     },
-    "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\WpfApp_Spline\\WpfApp_Spline.csproj": {
+    "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\WpfApp_Spline\\WpfApp_Spline.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\WpfApp_Spline\\WpfApp_Spline.csproj",
+        "projectUniqueName": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\WpfApp_Spline\\WpfApp_Spline.csproj",
         "projectName": "WpfApp_Spline",
-        "projectPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\WpfApp_Spline\\WpfApp_Spline.csproj",
+        "projectPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\WpfApp_Spline\\WpfApp_Spline.csproj",
         "packagesPath": "C:\\Users\\ydl74\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\WpfApp_Spline\\obj\\",
+        "outputPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\WpfApp_Spline\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,11 +105,11 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj": {
-                "projectPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj"
+              "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj": {
+                "projectPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj"
               },
-              "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\Dll_Spline\\Dll_Spline.vcxproj": {
-                "projectPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\Dll_Spline\\Dll_Spline.vcxproj"
+              "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\Dll_Spline\\Dll_Spline.vcxproj": {
+                "projectPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\Dll_Spline\\Dll_Spline.vcxproj"
               }
             }
           }

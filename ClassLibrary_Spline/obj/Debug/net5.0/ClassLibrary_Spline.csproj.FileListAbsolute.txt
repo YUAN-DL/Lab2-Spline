@@ -9,3 +9,15 @@ C:\Users\ydl74\source\repos\ClassLibrary_Spline\ClassLibrary_Spline\obj\Debug\ne
 C:\Users\ydl74\source\repos\ClassLibrary_Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.dll
 C:\Users\ydl74\source\repos\ClassLibrary_Spline\ClassLibrary_Spline\obj\Debug\net5.0\ref\ClassLibrary_Spline.dll
 C:\Users\ydl74\source\repos\ClassLibrary_Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.pdb
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\bin\Debug\net5.0\ClassLibrary_Spline.deps.json
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\bin\Debug\net5.0\ClassLibrary_Spline.dll
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\bin\Debug\net5.0\ref\ClassLibrary_Spline.dll
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\bin\Debug\net5.0\ClassLibrary_Spline.pdb
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.csproj.AssemblyReference.cache
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.AssemblyInfoInputs.cache
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.AssemblyInfo.cs
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.csproj.CoreCompileInputs.cache
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.dll
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\obj\Debug\net5.0\ref\ClassLibrary_Spline.dll
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\ClassLibrary_Spline\obj\Debug\net5.0\ClassLibrary_Spline.pdb

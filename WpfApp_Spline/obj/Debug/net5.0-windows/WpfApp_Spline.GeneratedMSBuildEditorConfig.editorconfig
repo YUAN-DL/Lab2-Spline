@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = WpfApp_Spline
-build_property.ProjectDir = C:\Users\ydl74\source\repos\ClassLibrary_Spline\WpfApp_Spline\
+build_property.ProjectDir = C:\Users\ydl74\Documents\GitHub\Lab2-Spline\WpfApp_Spline\

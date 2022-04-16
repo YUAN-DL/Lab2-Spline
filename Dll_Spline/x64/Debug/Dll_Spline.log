@@ -1,5 +1,12 @@
-﻿  Calculate_MKL.cpp
+﻿  pch.cpp
+  Calculate_MKL.cpp
 C:\Program Files (x86)\Intel\oneAPI\mkl\2021.4.0\include\mkl_spblas.h(1150,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-C:\Users\ydl74\source\repos\ClassLibrary_Spline\Dll_Spline\Calculate_MKL.cpp(130,1): warning C4297: “Calculate_MKL”: 假定函数不引发异常，但确实发生了
-C:\Users\ydl74\source\repos\ClassLibrary_Spline\Dll_Spline\Calculate_MKL.cpp(130,1): message : 函数是 extern "C" 并且指定了 /EHc
-  Dll_Spline.vcxproj -> C:\Users\ydl74\source\repos\ClassLibrary_Spline\x64\Debug\Dll_Spline.dll
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\Dll_Spline\Calculate_MKL.cpp(130,1): warning C4297: “Calculate_MKL”: 假定函数不引发异常，但确实发生了
+C:\Users\ydl74\Documents\GitHub\Lab2-Spline\Dll_Spline\Calculate_MKL.cpp(130,1): message : 函数是 extern "C" 并且指定了 /EHc
+  Calculate_MKL.h
+C:\Program Files (x86)\Intel\oneAPI\mkl\2021.4.0\include\mkl_spblas.h(1150,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+  dllmain.cpp
+  正在生成代码...
+x64\Debug\Calculate_MKL.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+    正在创建库 C:\Users\ydl74\Documents\GitHub\Lab2-Spline\x64\Debug\Dll_Spline.lib 和对象 C:\Users\ydl74\Documents\GitHub\Lab2-Spline\x64\Debug\Dll_Spline.exp
+  Dll_Spline.vcxproj -> C:\Users\ydl74\Documents\GitHub\Lab2-Spline\x64\Debug\Dll_Spline.dll

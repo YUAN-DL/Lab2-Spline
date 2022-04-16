@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj",
+      "projectUniqueName": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj",
       "projectName": "ClassLibrary_Spline",
-      "projectPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj",
+      "projectPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\ClassLibrary_Spline.csproj",
       "packagesPath": "C:\\Users\\ydl74\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ydl74\\source\\repos\\ClassLibrary_Spline\\ClassLibrary_Spline\\obj\\",
+      "outputPath": "C:\\Users\\ydl74\\Documents\\GitHub\\Lab2-Spline\\ClassLibrary_Spline\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
