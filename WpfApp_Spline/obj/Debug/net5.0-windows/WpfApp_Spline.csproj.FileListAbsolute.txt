@@ -52,4 +52,3 @@ C:\Users\ydl74\Documents\GitHub\Lab2-Spline\WpfApp_Spline\obj\Debug\net5.0-windo
 C:\Users\ydl74\Documents\GitHub\Lab2-Spline\WpfApp_Spline\obj\Debug\net5.0-windows\ref\WpfApp_Spline.dll
 C:\Users\ydl74\Documents\GitHub\Lab2-Spline\WpfApp_Spline\obj\Debug\net5.0-windows\WpfApp_Spline.pdb
 C:\Users\ydl74\Documents\GitHub\Lab2-Spline\WpfApp_Spline\obj\Debug\net5.0-windows\WpfApp_Spline.genruntimeconfig.cache
-C:\Users\ydl74\Documents\GitHub\Lab2-Spline\WpfApp_Spline\obj\Debug\net5.0-windows\WpfApp_Spline.csproj.CopyComplete
